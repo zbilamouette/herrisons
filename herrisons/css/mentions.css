@@ -1,0 +1,80 @@
+*{margin:0;padding:0;}#titre{margin-top:10px;margin-bottom:10px;}body{min-height:100vh;background-color:#FFF0D6;}.header{text-align:center;display:flex;flex-direction:column;}#hr{background-color:#000;height:1px;width:100%;}.links{color:#000;text-decoration:none;padding:20px;}.Llink{border-top-left-radius:7px;border-bottom-left-radius:7px;}.Rlink{border-top-right-radius:7px;border-bottom-right-radius:7px;}.liste{display:flex;list-style:none;border: 1px solid #000;border-radius:7px;align-items:center;}.cells{width:fit-content;vertical-align:middle;}.menu{width:fit-content;margin: 20px auto 0 auto;}.links:hover{background-color:#000;}.links:hover .cells{color:#FFF0D6;}.navCheck{width:fit-content;display:none;}.burgerMenu{background:transparent;background:linear-gradient(black,grey);width:fit-content;border-radius:7px;display:none;position:absolute;right:0}.burgerMenu,.navCheck{margin: 0px 3% 0px auto;}.burgerListe{list-style:none;position:relative;padding:10px;padding-right:25px;}.menuOpen{display:block;top:50px;}.burgerListe a{text-decoration:none;color:white;}.burgerCells{padding:15px;color:green;}    @media(max-width:1060px){.navCheck{display:block;}.menu{display:none;}}@media (max-width:1060px){.menu{width:80%;}}@media(min-width:1061px){.menuOpen{display:none;}}
+
+
+
+body{
+    background-color: #FFF0D6;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    margin-top:10px;
+}
+
+.navCheck{
+    margin-top: 5px;
+}
+
+main{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+p{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+/* banniere */
+
+header{
+    margin: 10px auto;
+    text-align: center;
+    position:relative;
+}
+
+h1{
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+hr{
+    margin-top: 15px;
+    height: 1px;
+}
+
+section{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+    color: #A11;
+}
+
+h2{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.info{
+    width: 70%;
+}
+
+.hebergeur{
+    width: 40%;
+}
+
+.triso{
+    width: 20%;
+}
+
+
+@media(max-width:1060px){h1{margin-top:10px}header{display: flex;}.navCheck{position:absolute; right:0;}}
